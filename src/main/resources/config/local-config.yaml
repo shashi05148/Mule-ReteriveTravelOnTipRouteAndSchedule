@@ -1,0 +1,14 @@
+http:
+  listner:
+    host: "localhost"
+    port: "8083"
+
+  requester:
+    travelontip:
+      eapi:
+        host: "localhost"
+        port: "8081"
+        base: "/travelontip-externalsystem"
+        getRoutesPath: "/travel/routes"
+        getSchedulesPath: "/travel/schedules"        
+     
