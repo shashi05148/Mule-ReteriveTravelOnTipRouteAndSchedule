@@ -2,13 +2,14 @@ http:
   listner:
     host: "localhost"
     port: "8083"
+    base: "/travelonTip-sapi"
 
   requester:
     travelontip:
       eapi:
         host: "localhost"
         port: "8081"
-        base: "/travelontip-externalsystem"
+        base: "/travelonTip-eapi"
         getRoutesPath: "/travel/routes"
         getSchedulesPath: "/travel/schedules"        
      
